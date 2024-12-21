@@ -8,6 +8,7 @@ public class Uppercase_first_character_of_string {
             if (str.charAt(i) == ' ') {
                 ch = Character.toUpperCase(str.charAt(i + 1));
                 sb.append(ch);
+                i++;
             } else {
                 sb.append(str.charAt(i));
             }
