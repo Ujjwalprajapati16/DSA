@@ -1,4 +1,4 @@
-public class Character {
+public class Char {
     public static void main(String[] args) {
         int N = 4;
         char ch = 'A';
