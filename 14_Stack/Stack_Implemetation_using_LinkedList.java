@@ -52,6 +52,7 @@ public class Stack_Implemetation_using_LinkedList {
         }
     }
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Stack s = new Stack();
 

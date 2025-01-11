@@ -7,7 +7,7 @@ public class Stack_Implementation_using_ArrayList {
 
         // isEmpty
         public static boolean isEmpty() {
-            return list.size() == 0;
+            return list.isEmpty();
         }
 
         // push
@@ -34,6 +34,7 @@ public class Stack_Implementation_using_ArrayList {
         }
     }
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Stack s = new Stack();
 
