@@ -1,7 +1,7 @@
 
 public class SubTree_of_another_tree {
 
-    static class Node {
+    public static class Node {
 
         int data;
         Node left, right;
