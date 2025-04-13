@@ -1,6 +1,4 @@
 
-import java.lang.classfile.components.ClassPrinter;
-
 public class LinkedList {
     public class Node {
         int data;
